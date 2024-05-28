@@ -1,0 +1,7 @@
+Matchup,AI 1,AI 1 Wins,AI 2,AI 2 Wins,Draws
+Minimax vs Default,MinimaxOpponent,451,DefaultOpponent,49,0
+Alpha Beta vs Default,AlphaBetaOpponent,446,DefaultOpponent,53,1
+Q-Learning vs Default,QLearningOpponent,39,DefaultOpponent,335,126
+Q-Learning vs Minimax,QLearningOpponent,7,MinimaxOpponent,394,99
+Q-Learning vs Alpha Beta,QLearningOpponent,8,AlphaBetaOpponent,392,100
+Minimax vs Alpha Beta,MinimaxOpponent,369,AlphaBetaOpponent,99,32
