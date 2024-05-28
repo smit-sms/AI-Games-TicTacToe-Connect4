@@ -1,20 +1,20 @@
 # TicTacToe and Connect4 - Adversarial Search and Reinforcement Learning
 
-This project focuses on implementing and analyzing the performance of various AI algorithms for playing TicTacToe and Connect4. The algorithms implemented include:
-- Minimax
-- Minimax with Alpha Beta Pruning
-- Q-Learning Algorithm
-- Default Opponent (Semi-Intelligent)
+This project focuses on the implementation and analysis of various AI algorithms for playing TicTacToe and Connect4. The aim is to explore adversarial search techniques and reinforcement learning to develop intelligent agents that can play these games effectively. Both `TicTacToe` and `Connect4` are implemented using `Python` and the `tkinter` library to provide a graphical user interface (GUI). This allows users to play the games interactively and visualize the AI's decision-making process.
 
 **Objective:**
 
-The main objective is to apply adversarial search and reinforcement learning techniques to TicTacToe and Connect4 games, comparing their performance in various scenarios including Human vs AI, AI vs AI, and Human vs Human.
-
+The primary objective of this project is to apply adversarial search and reinforcement learning techniques to the TicTacToe and Connect4 games, comparing the performance of different AI algorithms in various scenarios. The analysis includes:
+- Comparing the performance of each algorithm against a default opponent.
+- Evaluating how different algorithms perform against each other.
+- Analyzing the efficiency and effectiveness of Minimax with and without Alpha Beta Pruning.
+- Assessing the learning capabilities of the Q-Learning algorithm.
+  
 **Algorithms and Opponents:**
-1. **Default Opponent**: Implements basic strategies such as selecting winning moves, blocking the opponent's winning moves, or choosing random moves.
-2. **Minimax Algorithm**: Explores all possible moves to make optimal decisions by maximizing the AI player's chances of winning and minimizing the opponent's chances.
-3. **Minimax with Alpha Beta Pruning**: Optimizes the Minimax algorithm by pruning branches that cannot influence the final decision, improving efficiency.
-4. **Q-Learning**: Uses reinforcement learning to learn the value of actions in different states through experience, allowing the AI to improve over time.
+1. **Minimax**: A classic AI algorithm that explores all possible moves to find the optimal strategy by maximizing the AI's chances of winning and minimizing the opponent's chances.
+2. **Minimax with Alpha Beta Pruning**: An optimized version of the Minimax algorithm that prunes branches of the search tree that cannot influence the final decision, significantly improving efficiency.
+3. **Q-Learning**: A reinforcement learning algorithm that allows the AI to learn from experience by updating its knowledge of the game environment over time.
+4. **Default Opponent**: A semi-intelligent opponent that makes moves based on simple heuristics, such as selecting winning moves, blocking the opponent's winning moves, or choosing random moves when no immediate threats or opportunities are present.
 
 **Key Features:**
 1. GUI: User-friendly graphical interface for both games.
